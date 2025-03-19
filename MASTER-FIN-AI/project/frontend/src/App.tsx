@@ -8,6 +8,7 @@ import PricingPage from './pages/Dashboard/PricingPage';
 import PrivateRoute from './utils/PrivateRoute';
 import CustomModel from './pages/Dashboard/Custom_model';
 import HelpPage from './pages/Dashboard/Help';
+import Tetris from './pages/Dashboard/Tetris';
 
 function App() {
   const token = localStorage.getItem('token');
@@ -27,6 +28,7 @@ function App() {
           <Route path="pricing" element={<PricingPage />} />
           <Route path="chat" element={<CustomModel />} />
           <Route path="help" element={<HelpPage />} />
+          <Route path="tetris" element={<Tetris />} />
         </Route>
       </Routes>
     </Router>
