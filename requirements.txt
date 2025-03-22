@@ -1,0 +1,17 @@
+langchain 
+wikipedia 
+langchain-community 
+langchain-openai
+langchain-anthropic
+python-dotenv
+pydantic
+duckduckgo-search
+pandas
+matplotlib
+plotly
+faiss-cpu
+chromadb
+tiktoken
+requests
+beautifulsoup4
+yfinance
