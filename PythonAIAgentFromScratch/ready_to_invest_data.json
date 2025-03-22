@@ -1,43 +1,75 @@
 [
     {
-        "type": "investment_basics",
-        "data": {
-            "getting_started": {
-                "steps": [
-                    "open_brokerage_account",
-                    "understand_basic_concepts",
-                    "set_investment_goals"
-                ],
-                "basic_concepts": [
-                    "stocks",
-                    "bonds",
-                    "mutual_funds",
-                    "ETFs"
+        "type": "getting_started",
+        "steps": [
+            {
+                "name": "Set Investment Goals",
+                "description": "Define clear financial objectives and timeframes",
+                "considerations": [
+                    "Short-term vs Long-term goals",
+                    "Risk tolerance",
+                    "Investment timeline",
+                    "Required returns"
                 ]
             },
-            "risk_management": {
-                "strategies": [
-                    "diversification",
-                    "dollar_cost_averaging",
-                    "asset_allocation"
-                ],
-                "risk_level": "moderate"
+            {
+                "name": "Build Emergency Fund",
+                "description": "Establish financial safety net before investing",
+                "recommendations": [
+                    "3-6 months of expenses",
+                    "High-yield savings account",
+                    "Liquid assets"
+                ]
             }
-        }
+        ]
     },
     {
-        "type": "market_research",
-        "data": {
-            "research_methods": [
-                "company_financials",
-                "market_trends",
-                "economic_indicators"
-            ],
-            "analysis_tools": [
-                "stock_screeners",
-                "market_news",
-                "expert_opinions"
-            ]
-        }
+        "type": "investment_basics",
+        "concepts": [
+            {
+                "name": "Asset Classes",
+                "description": "Different types of investments",
+                "examples": [
+                    "Stocks",
+                    "Bonds",
+                    "Mutual Funds",
+                    "ETFs",
+                    "Real Estate"
+                ]
+            },
+            {
+                "name": "Risk Management",
+                "description": "Basic risk management strategies",
+                "strategies": [
+                    "Diversification",
+                    "Dollar-cost averaging",
+                    "Regular rebalancing",
+                    "Asset allocation"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "research_methods",
+        "tools": [
+            {
+                "name": "Company Research",
+                "sources": [
+                    "Annual reports",
+                    "Financial news",
+                    "Stock screeners",
+                    "Analyst reports"
+                ]
+            },
+            {
+                "name": "Market Research",
+                "sources": [
+                    "Market indices",
+                    "Economic indicators",
+                    "Industry reports",
+                    "Market news"
+                ]
+            }
+        ]
     }
 ] 

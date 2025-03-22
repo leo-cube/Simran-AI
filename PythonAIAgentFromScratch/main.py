@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 def main():
     # Load environment variables
     load_dotenv()
-    
+
     # Initialize specialized RAG systems
     rag_systems = {
         'invested_user': InvestedUserRAG(),
@@ -77,4 +77,4 @@ def main():
             print("\n" + "-"*50)
 
 if __name__ == "__main__":
-    main()
+    main() 

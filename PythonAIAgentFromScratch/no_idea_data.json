@@ -1,44 +1,75 @@
 [
     {
-        "type": "investment_education",
-        "data": {
-            "basic_concepts": {
-                "what_is_investing": [
-                    "definition",
-                    "purpose",
-                    "benefits"
-                ],
-                "investment_types": [
-                    "stocks",
-                    "bonds",
-                    "mutual_funds",
-                    "ETFs"
+        "type": "basic_concepts",
+        "topics": [
+            {
+                "name": "What is Investing?",
+                "description": "Understanding the basics of investing",
+                "key_points": [
+                    "Investing is putting money to work to earn more money",
+                    "Different from saving (which is just storing money)",
+                    "Involves risk and potential reward",
+                    "Requires time and patience"
                 ]
             },
-            "getting_started": {
-                "first_steps": [
-                    "learn_basics",
-                    "set_goals",
-                    "create_budget",
-                    "start_small"
-                ],
-                "risk_level": "low"
+            {
+                "name": "Why Invest?",
+                "description": "Benefits of investing",
+                "benefits": [
+                    "Beat inflation",
+                    "Build wealth over time",
+                    "Generate passive income",
+                    "Achieve financial goals"
+                ]
             }
-        }
+        ]
     },
     {
-        "type": "learning_resources",
-        "data": {
-            "educational_materials": [
-                "investment_books",
-                "online_courses",
-                "financial_websites"
-            ],
-            "practice_tools": [
-                "paper_trading",
-                "investment_simulators",
-                "learning_platforms"
-            ]
-        }
+        "type": "investment_types",
+        "categories": [
+            {
+                "name": "Stocks",
+                "description": "Ownership in a company",
+                "basics": [
+                    "Shares represent partial ownership",
+                    "Value can go up or down",
+                    "May pay dividends",
+                    "Traded on stock exchanges"
+                ]
+            },
+            {
+                "name": "Bonds",
+                "description": "Loans to governments or companies",
+                "basics": [
+                    "Fixed interest payments",
+                    "Generally lower risk than stocks",
+                    "Maturity date",
+                    "Credit ratings"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "getting_started",
+        "steps": [
+            {
+                "name": "Learn the Basics",
+                "resources": [
+                    "Investment books for beginners",
+                    "Online courses",
+                    "Financial websites",
+                    "Investment podcasts"
+                ]
+            },
+            {
+                "name": "Start Small",
+                "recommendations": [
+                    "Open a brokerage account",
+                    "Start with index funds",
+                    "Practice with paper trading",
+                    "Set up automatic investments"
+                ]
+            }
+        ]
     }
 ] 

@@ -1,47 +1,47 @@
 [
     {
-        "type": "portfolio_analysis",
-        "data": {
-            "portfolio_optimization": {
-                "strategies": [
-                    "rebalancing",
-                    "tax-loss harvesting",
-                    "sector rotation"
-                ],
-                "risk_management": [
-                    "stop-loss orders",
-                    "position sizing",
-                    "diversification"
-                ]
+        "type": "portfolio_optimization",
+        "strategies": [
+            {
+                "name": "Modern Portfolio Theory",
+                "description": "Optimize portfolio allocation based on risk-return tradeoff",
+                "key_concepts": ["Efficient Frontier", "Risk-Adjusted Returns", "Diversification"]
             },
-            "advanced_investment": {
-                "strategies": [
-                    "options trading",
-                    "margin trading",
-                    "short selling"
-                ],
-                "risk_level": "high",
-                "requirements": [
-                    "margin account",
-                    "options approval",
-                    "minimum capital"
-                ]
+            {
+                "name": "Factor Investing",
+                "description": "Target specific risk factors for enhanced returns",
+                "factors": ["Value", "Momentum", "Quality", "Size"]
             }
-        }
+        ]
+    },
+    {
+        "type": "risk_management",
+        "techniques": [
+            {
+                "name": "Position Sizing",
+                "description": "Determine optimal position size based on risk tolerance",
+                "methods": ["Kelly Criterion", "Fixed Position Size", "Risk-Based Allocation"]
+            },
+            {
+                "name": "Stop Loss Strategies",
+                "description": "Protect investments with predefined exit points",
+                "types": ["Fixed Stop", "Trailing Stop", "Time-Based Stop"]
+            }
+        ]
     },
     {
         "type": "market_analysis",
-        "data": {
-            "technical_indicators": [
-                "RSI",
-                "MACD",
-                "Bollinger Bands"
-            ],
-            "fundamental_analysis": [
-                "P/E ratio",
-                "EPS",
-                "Dividend yield"
-            ]
-        }
+        "tools": [
+            {
+                "name": "Technical Analysis",
+                "indicators": ["Moving Averages", "RSI", "MACD", "Bollinger Bands"],
+                "timeframes": ["Short-term", "Medium-term", "Long-term"]
+            },
+            {
+                "name": "Fundamental Analysis",
+                "metrics": ["P/E Ratio", "DCF", "ROI", "Debt-to-Equity"],
+                "sources": ["Financial Statements", "SEC Filings", "Industry Reports"]
+            }
+        ]
     }
 ] 
