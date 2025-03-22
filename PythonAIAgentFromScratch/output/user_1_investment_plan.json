@@ -1,0 +1,140 @@
+{
+  "user_id": "1",
+  "investment_profile": {
+    "goal": "Wealth Growth",
+    "risk_tolerance": "High",
+    "investment_horizon": "Long-term",
+    "total_portfolio_value": 100000
+  },
+  "current_investment": {
+    "total_amount": 75000,
+    "allocation": [
+      {
+        "type": "Stocks",
+        "percentage": 60,
+        "amount": 45000,
+        "holdings": [
+          "AAPL",
+          "MSFT",
+          "GOOGL"
+        ]
+      },
+      {
+        "type": "Bonds",
+        "percentage": 40,
+        "amount": 30000,
+        "holdings": [
+          "Treasury Bonds",
+          "Corporate Bonds"
+        ]
+      }
+    ]
+  },
+  "new_investment_plan": {
+    "total_amount": 25000,
+    "allocation": [
+      {
+        "type": "ETFs",
+        "percentage": 50,
+        "amount": 12500,
+        "reason": "Diversification"
+      },
+      {
+        "type": "Real Estate",
+        "percentage": 50,
+        "amount": 12500,
+        "reason": "Income generation"
+      }
+    ],
+    "rationale": [
+      "Market conditions favorable",
+      "Sector rotation needed"
+    ]
+  },
+  "portfolio_analysis": {
+    "diversification_score": 0.85,
+    "risk_adjusted_return": 0.12
+  },
+  "risk_metrics": {
+    "beta": 1.2,
+    "sharpe_ratio": 1.5,
+    "max_drawdown": -0.15
+  },
+  "tax_considerations": [
+    "Tax-loss harvesting opportunities",
+    "Long-term capital gains"
+  ],
+  "visualizations": {
+    "current_vs_proposed": {
+      "type": "stacked_bar",
+      "title": "Current vs Proposed Allocation",
+      "data": {
+        "current": [
+          {
+            "label": "Stocks",
+            "value": 60,
+            "color": "#FF6B6B"
+          },
+          {
+            "label": "Bonds",
+            "value": 40,
+            "color": "#4ECDC4"
+          }
+        ],
+        "proposed": [
+          {
+            "label": "ETFs",
+            "value": 50,
+            "color": "#FF6B6B"
+          },
+          {
+            "label": "Real Estate",
+            "value": 50,
+            "color": "#4ECDC4"
+          }
+        ]
+      }
+    },
+    "performance_metrics": {
+      "type": "line",
+      "title": "Portfolio Performance Metrics",
+      "data": {
+        "metrics": [
+          "Return",
+          "Risk",
+          "Sharpe Ratio"
+        ],
+        "current": [
+          0.12,
+          1.2,
+          1.5
+        ],
+        "benchmark": [
+          0.1,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "risk_analysis": {
+      "type": "radar",
+      "title": "Risk Analysis",
+      "data": {
+        "dimensions": [
+          "Market Risk",
+          "Credit Risk",
+          "Liquidity Risk",
+          "Concentration Risk",
+          "Currency Risk"
+        ],
+        "values": [
+          1.2,
+          0.7,
+          0.8,
+          0.6,
+          0.4
+        ]
+      }
+    }
+  }
+}

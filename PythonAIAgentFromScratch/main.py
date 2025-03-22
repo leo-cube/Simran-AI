@@ -1,6 +1,15 @@
 from specialized_rag import InvestedUserRAG, ReadyToInvestRAG, NoIdeaRAG
 import os
+import json
 from dotenv import load_dotenv
+
+def save_json_output(user_id: str, json_data: dict):
+    """Save JSON output to a file."""
+    os.makedirs("output", exist_ok=True)
+    filename = f"output/user_{user_id}_investment_plan.json"
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(json_data, f, indent=2)
+    return filename
 
 def main():
     # Load environment variables
@@ -38,6 +47,10 @@ def main():
             print("Invalid choice. Please select 1, 2, or 3.")
             continue
         
+        # Get user ID
+        print("\nEnter your user ID:")
+        user_id = input().strip()
+        
         user_type = user_type_map[user_choice]
         rag = rag_systems[user_type]
         
@@ -71,9 +84,16 @@ def main():
                 continue
             
             # Get personalized recommendation using specialized RAG
-            response = rag.get_personalized_recommendation(query)
-            print("\nResponse:")
-            print(response)
+            analysis, json_output = rag.get_personalized_recommendation(query, user_id)
+            
+            print("\nAnalysis:")
+            print(analysis)
+            
+            if json_output:
+                # Save JSON output to file
+                output_file = save_json_output(user_id, json_output)
+                print(f"\nDetailed investment plan saved to: {output_file}")
+            
             print("\n" + "-"*50)
 
 if __name__ == "__main__":
