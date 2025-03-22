@@ -1,0 +1,43 @@
+[
+    {
+        "type": "investment_basics",
+        "data": {
+            "getting_started": {
+                "steps": [
+                    "open_brokerage_account",
+                    "understand_basic_concepts",
+                    "set_investment_goals"
+                ],
+                "basic_concepts": [
+                    "stocks",
+                    "bonds",
+                    "mutual_funds",
+                    "ETFs"
+                ]
+            },
+            "risk_management": {
+                "strategies": [
+                    "diversification",
+                    "dollar_cost_averaging",
+                    "asset_allocation"
+                ],
+                "risk_level": "moderate"
+            }
+        }
+    },
+    {
+        "type": "market_research",
+        "data": {
+            "research_methods": [
+                "company_financials",
+                "market_trends",
+                "economic_indicators"
+            ],
+            "analysis_tools": [
+                "stock_screeners",
+                "market_news",
+                "expert_opinions"
+            ]
+        }
+    }
+] 

@@ -1,0 +1,47 @@
+[
+    {
+        "type": "portfolio_analysis",
+        "data": {
+            "portfolio_optimization": {
+                "strategies": [
+                    "rebalancing",
+                    "tax-loss harvesting",
+                    "sector rotation"
+                ],
+                "risk_management": [
+                    "stop-loss orders",
+                    "position sizing",
+                    "diversification"
+                ]
+            },
+            "advanced_investment": {
+                "strategies": [
+                    "options trading",
+                    "margin trading",
+                    "short selling"
+                ],
+                "risk_level": "high",
+                "requirements": [
+                    "margin account",
+                    "options approval",
+                    "minimum capital"
+                ]
+            }
+        }
+    },
+    {
+        "type": "market_analysis",
+        "data": {
+            "technical_indicators": [
+                "RSI",
+                "MACD",
+                "Bollinger Bands"
+            ],
+            "fundamental_analysis": [
+                "P/E ratio",
+                "EPS",
+                "Dividend yield"
+            ]
+        }
+    }
+] 

@@ -1,0 +1,26 @@
+[
+    {
+        "type": "stock",
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "sector": "Technology",
+        "description": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide.",
+        "key_metrics": {
+            "market_cap": "2.8T",
+            "pe_ratio": 28.5,
+            "dividend_yield": 0.5
+        }
+    },
+    {
+        "type": "etf",
+        "symbol": "VOO",
+        "name": "Vanguard S&P 500 ETF",
+        "sector": "Broad Market",
+        "description": "The Vanguard S&P 500 ETF tracks the performance of the S&P 500 Index, which measures the investment return of large-capitalization stocks.",
+        "key_metrics": {
+            "aum": "800B",
+            "expense_ratio": 0.03,
+            "top_holdings": ["AAPL", "MSFT", "GOOGL"]
+        }
+    }
+] 

@@ -1,0 +1,44 @@
+[
+    {
+        "type": "investment_education",
+        "data": {
+            "basic_concepts": {
+                "what_is_investing": [
+                    "definition",
+                    "purpose",
+                    "benefits"
+                ],
+                "investment_types": [
+                    "stocks",
+                    "bonds",
+                    "mutual_funds",
+                    "ETFs"
+                ]
+            },
+            "getting_started": {
+                "first_steps": [
+                    "learn_basics",
+                    "set_goals",
+                    "create_budget",
+                    "start_small"
+                ],
+                "risk_level": "low"
+            }
+        }
+    },
+    {
+        "type": "learning_resources",
+        "data": {
+            "educational_materials": [
+                "investment_books",
+                "online_courses",
+                "financial_websites"
+            ],
+            "practice_tools": [
+                "paper_trading",
+                "investment_simulators",
+                "learning_platforms"
+            ]
+        }
+    }
+] 
